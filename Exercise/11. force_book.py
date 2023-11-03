@@ -5,7 +5,7 @@ command = input()
 while command != "Lumpawaroo":
     if "|" in command:
         force_side, force_user = command.split(" | ")
-    if "->" in command:
+    elif "->" in command:
         force_side, force_user = command.split(" -> ")
 
 
