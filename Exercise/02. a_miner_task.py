@@ -1,7 +1,6 @@
 # First task from the lecture
 
 resources = {}
-
 while True:
     current_resources = input()
     if current_resources == "stop":
