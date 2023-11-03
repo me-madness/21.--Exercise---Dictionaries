@@ -11,7 +11,8 @@ while True:
         resources[current_resources] = 0
     resources[current_resources] += current_quantity
         
-
+for resource, quantity in resources.items():
+    print(f"{resource} -> {quantity}")
 
 
 # Second task from me me
