@@ -23,7 +23,9 @@ while not obtained:
             items["motes"] -= 250  
             obtained = True 
         if obtained:
-            break             
+            break
+    if obtained:
+        break                
     current_items = input().split()  
 for  material, quantity in items.items():  
     print(f"{material}: {quantity}")    
